@@ -4,7 +4,6 @@ namespace Konjeva_Turneja
 {
     internal class Program
     {
-        // mozni premiki
         static int[] premikX = { 2, 2, -2, -2, 1, 1, -1, -1 };
         static int[] premikY = { 1, -1, 1, -1, 2, -2, 2, -2 };
 
@@ -88,7 +87,7 @@ namespace Konjeva_Turneja
             return true;
         }
 
-        // izpis poti
+
         static void Izpis(int[,] sahovnica, int velikost)
         {
             Console.WriteLine("\nSeznam potez:");
@@ -119,4 +118,5 @@ namespace Konjeva_Turneja
             }
         }
     }
+
 }
